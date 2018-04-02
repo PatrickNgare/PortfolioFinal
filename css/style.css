@@ -7,8 +7,11 @@
   padding-top:40px;
   padding-bottom:40px;
   text-align:center;
-  background-color:rgba(51, 51, 51,1);
+  background-color:#131212;
   color: #f8f8f8;
+  background-image: url('img/pexels-photo-265070.jpeg')
+  
+
 }
 
 .no-space .box
@@ -81,6 +84,7 @@ hr.soften {
 .container{
   display: flex;
   flex-flow: column nowrap;
+  padding-top: 20px;
   
   margin: 3em auto; 
 }
@@ -110,10 +114,10 @@ hr.soften {
   background-attachment: content;
   background-size: cover;
   filter:brightness(0.8);
-  background-color: #000;
+  
 }
 .image h1, p{
-  color: #fff;
+  color: #070707;
   text-align: center;
   font-family: 'Playfair Display', serif;
   font-style: italic;
